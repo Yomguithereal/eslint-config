@@ -19,7 +19,7 @@ module.exports = {
     'react/jsx-boolean-value': [2, 'never'],
     // Validate closing bracket location in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
-    'react/jsx-closing-bracket-location': [2, 'line-aligned'],
+    'react/jsx-closing-bracket-location': [1, 'after-props'],
     // Enforce or disallow spaces inside of curly braces in JSX attributes
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
     'react/jsx-curly-spacing': [0, 'never', {'allowMultiline': true}],
@@ -28,19 +28,19 @@ module.exports = {
     'react/jsx-handler-names': 0,
     // Validate props indentation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-    'react/jsx-indent-props': [2, 2],
+    'react/jsx-indent-props': 0,
     // Validate JSX has key prop when in array or iterator
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': 0,
     // Limit maximum of props on a single line in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-props-per-line.md
-    'react/jsx-max-props-per-line': [0, {'maximum': 1}],
+    'react/jsx-max-props-per-line': 0,
     // Prevent usage of .bind() and arrow functions in JSX props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
     'react/jsx-no-bind': 0,
     // Prevent duplicate props in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
-    'react/jsx-no-duplicate-props': [0, {'ignoreCase': false}],
+    'react/jsx-no-duplicate-props': 1,
     // Prevent usage of unwrapped JSX strings
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
     'react/jsx-no-literals': 0,
@@ -49,19 +49,13 @@ module.exports = {
     'react/jsx-no-undef': 2,
     // Enforce PascalCase for user-defined JSX components
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
-    'react/jsx-pascal-case': 0,
+    'react/jsx-pascal-case': 1,
     // Enforce propTypes declarations alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-prop-types.md
-    'react/jsx-sort-prop-types': [0, {
-      'ignoreCase': false,
-      'callbacksLast': false,
-    }],
+    'react/jsx-sort-prop-types': 1,
     // Enforce props alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
-    'react/jsx-sort-props': [0, {
-      'ignoreCase': false,
-      'callbacksLast': false,
-    }],
+    'react/jsx-sort-props': 0,
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
     'react/jsx-uses-react': [2, {'pragma': 'React'}],
@@ -82,7 +76,7 @@ module.exports = {
     'react/no-did-update-set-state': [2, 'allow-in-func'],
     // Prevent direct mutation of this.state
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
-    'react/no-direct-mutation-state': 0,
+    'react/no-direct-mutation-state': 1,
     // Prevent usage of isMounted
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
     'react/no-is-mounted': 2,
