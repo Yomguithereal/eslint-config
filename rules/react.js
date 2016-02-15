@@ -2,8 +2,10 @@ module.exports = {
   plugins: [
     'react'
   ],
-  ecmaFeatures: {
-    jsx: true
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
@@ -111,12 +113,12 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': [2, {
       order: [
-        'lifecycle',
-        '/^on.+$/',
-        '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
-        'everything-else',
-        '/^render.+$/',
-        'render'
+      'lifecycle',
+      '/^on.+$/',
+      '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
+      'everything-else',
+      '/^render.+$/',
+      'render'
       ]
     }],
     // Prevent missing parentheses around multilines JSX
@@ -125,6 +127,6 @@ module.exports = {
       declaration: true,
       assignment: true,
       return: true
-    }],
+    }]
   }
 };

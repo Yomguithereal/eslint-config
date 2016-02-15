@@ -4,7 +4,7 @@
   "description": "Just an eslint config.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c ./legacy.js *.js ./rules"
+    "test": "eslint -c ./es6.js *.js ./rules"
   },
   "repository": {
     "type": "git",
