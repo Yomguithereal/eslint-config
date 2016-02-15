@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    './es6',
-    './rules/es7'
+    './es6.js',
+    './rules/es7.js'
   ].map(require.resolve),
   rules: {}
 };

@@ -1,4 +1,4 @@
 module.exports = {
-  extends: require.resolve('./rules/react'),
+  extends: require.resolve('./rules/react.js'),
   rules: {}
 };

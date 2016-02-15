@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    './legacy',
-    './rules/es6',
+    './legacy.js',
+    './rules/es6.js',
   ].map(require.resolve),
   rules: {}
 };
