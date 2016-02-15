@@ -13,7 +13,7 @@ module.exports = {
     // require default case in switch statements
     'default-case': 2,
     // encourages use of dot notation whenever possible
-    'dot-notation': [2, { 'allowKeywords': true}],
+    'dot-notation': [2, {'allowKeywords': true}],
     // enforces consistent newlines before or after dots
     'dot-location': 0,
     // require the use of === and !==
@@ -28,8 +28,6 @@ module.exports = {
     'no-div-regex': 0,
     // disallow else after a return in an if
     'no-else-return': 0,
-    // disallow use of labels for anything other then loops and switches
-    'no-empty-label': 2,
     // disallow comparisons to null without a type-checking operator
     'no-eq-null': 0,
     // disallow use of eval()
@@ -51,7 +49,7 @@ module.exports = {
     // disallow usage of __iterator__ property
     'no-iterator': 2,
     // disallow use of labeled statements
-    'no-labels': 2,
+    'no-labels': [2, {allowLoop: true}],
     // disallow unnecessary nested blocks
     'no-lone-blocks': 2,
     // disallow creation of functions within loops
@@ -100,7 +98,7 @@ module.exports = {
     // disallow use of void operator
     'no-void': 0,
     // disallow usage of configurable warning terms in comments: e.g. todo
-    'no-warning-comments': [0, { 'terms': ['todo', 'fixme', 'xxx'], 'location': 'start' }],
+    'no-warning-comments': [0, {'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}],
     // disallow use of the with statement
     'no-with': 2,
     // require use of the second argument for parseInt()

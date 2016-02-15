@@ -26,13 +26,15 @@ module.exports = {
     'arrow-parens': 0,
     // require space before/after arrow function's arrow
     // https://github.com/eslint/eslint/blob/master/docs/rules/arrow-spacing.md
-    'arrow-spacing': [2, { 'before': true, 'after': true }],
+    'arrow-spacing': [2, {before: true, after: true}],
     // verify super() callings in constructors
     'constructor-super': 0,
     // enforce the spacing around the * in generator functions
     'generator-star-spacing': 0,
     // disallow modifying variables of class declarations
     'no-class-assign': 0,
+    // Disallow arrow functions where they could be confused with comparisons
+    'no-confusing-arrow': 2,
     // disallow modifying variables that are declared using const
     'no-const-assign': 2,
     // disallow to use this/super before super() calling in constructors.

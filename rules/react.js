@@ -67,7 +67,7 @@ module.exports = {
     'react/no-danger': 0,
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
-    'react/no-deprecated': [1, {"react": "0.14.0"}],
+    'react/no-deprecated': [1, {react: '0.14.0'}],
     // Prevent usage of setState in componentDidMount
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
     'react/no-did-mount-set-state': [2, 'allow-in-func'],
