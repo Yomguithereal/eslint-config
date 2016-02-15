@@ -7,11 +7,11 @@ module.exports = {
     './rules/variables.js'
   ].map(require.resolve),
   env: {
-    'browser': true,
-    'node': true,
-    'amd': false,
-    'mocha': true,
-    'jasmine': false
+    browser: true,
+    node: true,
+    amd: false,
+    mocha: true,
+    jasmine: false
   },
   ecmaFeatures: {},
   globals: {},

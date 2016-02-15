@@ -1,16 +1,16 @@
 module.exports = {
-  'plugins': [
+  plugins: [
     'react'
   ],
-  'ecmaFeatures': {
-    'jsx': true
+  ecmaFeatures: {
+    jsx: true
   },
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
-  'rules': {
+  rules: {
     // Prevent missing displayName in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
-    'react/display-name': [0, {'acceptTranspilerName': false}],
+    'react/display-name': [0, {acceptTranspilerName: false}],
     // Forbid certain propTypes (any, array, object)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
     'react/forbid-prop-types': 0,
@@ -22,7 +22,7 @@ module.exports = {
     'react/jsx-closing-bracket-location': [1, 'after-props'],
     // Enforce or disallow spaces inside of curly braces in JSX attributes
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
-    'react/jsx-curly-spacing': [0, 'never', {'allowMultiline': true}],
+    'react/jsx-curly-spacing': [0, 'never', {allowMultiline: true}],
     // Enforce event handler naming conventions in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
     'react/jsx-handler-names': 0,
@@ -58,7 +58,7 @@ module.exports = {
     'react/jsx-sort-props': 0,
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
-    'react/jsx-uses-react': [2, {'pragma': 'React'}],
+    'react/jsx-uses-react': [2, {pragma: 'React'}],
     // Prevent variables used in JSX to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
     'react/jsx-uses-vars': 2,
@@ -103,14 +103,14 @@ module.exports = {
     'react/react-in-jsx-scope': 2,
     // Restrict file extensions that may be required
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-extension.md
-    'react/require-extension': [0, {'extensions': ['.jsx']}],
+    'react/require-extension': [0, {extensions: ['.jsx']}],
     // Prevent extra closing tags for components without children
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
     'react/self-closing-comp': 2,
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': [2, {
-      'order': [
+      order: [
         'lifecycle',
         '/^on.+$/',
         '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
