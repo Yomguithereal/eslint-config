@@ -104,7 +104,7 @@ module.exports = {
     // require use of the second argument for parseInt()
     'radix': 2,
     // requires to declare all vars on top of their containing scope
-    'vars-on-top': 2,
+    'vars-on-top': 0,
     // require immediate function invocation to be wrapped in parentheses
     'wrap-iife': [2, 'any'],
     // require or disallow Yoda conditions
