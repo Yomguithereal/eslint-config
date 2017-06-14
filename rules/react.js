@@ -47,7 +47,8 @@ module.exports = {
     'react/jsx-indent-props': [2, 2],
     'react/jsx-indent': [2, 2],
     'react/jsx-closing-bracket-location': [2, 'after-props'],
-    'react/jsx-space-before-closing': 2,
+    // 'react/jsx-space-before-closing': 2, DEPRECATED
+    'react/jsx-tag-spacing': 2,
     'react/no-direct-mutation-state': 2,
     'react/forbid-prop-types': 2,
     'react/prefer-es6-class': 2,
