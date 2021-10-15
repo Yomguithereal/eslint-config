@@ -102,7 +102,7 @@ module.exports = {
     // https://github.com/eslint/eslint/blob/master/docs/rules/space-before-function-paren.md
     'space-before-function-paren': 0,
     // require or disallow spaces inside parentheses
-    'space-in-parens': 0,
+    'space-in-parens': [2, 'never'],
     // require spaces around operators
     'space-infix-ops': 2,
     // Require or disallow spaces before/after unary operators
