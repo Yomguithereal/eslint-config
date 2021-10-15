@@ -3,7 +3,7 @@ module.exports = {
     // enforce spacing inside array brackets
     'array-bracket-spacing': [2, 'never'],
     // enforce one true brace style
-    'brace-style': [2, 'stroustrup'],
+    'brace-style': 0,
     // require camel case names
     'camelcase': [2, {properties: 'never'}],
     // enforce spacing before and after comma
